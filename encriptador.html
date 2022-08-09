@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Encriptador - JH</title>
+</head>
+<body>
+
+  <main>
+    <section id="sect-1">
+      <div id="container-textarea" style="height: 70%;">
+        <input name="box" id="box" cols="20" rows="10" placeholder="Ingrese el texto aqui" style="text-transform:lowercase;" type="text"></input>
+      </div>
+
+      <div style="height: 30%;">
+        <p><img src="https://res.cloudinary.com/docutv7ug/image/upload/v1659740723/encriptador/Vector_mivdzd.png" alt="Information"><strong>Solo letras minúsculas y sin acentos</strong></p>
+        <div id="container-buttons">
+          <button id="btn1" onclick="encriptar()">Encriptar!</button>
+          <button class="btn2" id="btn2" onclick="desencriptar()">Desencriptar!</button>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="sect-2">
+      <div id="container-sect-2">
+            <div id="encripted" style="height:20%;"></div>
+            <div id="to-hidden">
+              <img src="https://res.cloudinary.com/docutv7ug/image/upload/v1659740724/encriptador/Mu%C3%B1eco_iwcyqi.png" alt="Imagen fondo" id="img1">
+              <p style="text-align: center; font-size: 1.5em; margin-top: 3%;"><strong>Ningun mensaje fue encontrado</strong></p>
+              <p style="text-align: center; padding: 1%;">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button class="btn2" id="btnCopy" onclick = "copy()" >Copiar</button>
+      </div>
+    </section>
+
+  </main>
+    
+
+  <footer>
+    <p class="copyright" style="font-size: 12px;">©Encriptador 2022 <a href="https://github.com/julianest">Julian Huerfano</a></p>
+  </footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
